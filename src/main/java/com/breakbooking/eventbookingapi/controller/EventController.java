@@ -32,6 +32,12 @@ public class EventController {
 		this.eventService = eventService;
 	}
 
+	/* JENKINS TESTING */
+
+	@GetMapping("/home")
+	public void get(){
+		System.out.println("Welcome to booking system");
+	}
 
 
 	/* FIND ALL EVENTS */
