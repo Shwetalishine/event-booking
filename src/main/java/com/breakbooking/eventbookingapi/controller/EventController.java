@@ -32,12 +32,6 @@ public class EventController {
 		this.eventService = eventService;
 	}
 
-	/* JENKINS TESTING */
-
-	@GetMapping("/helloWorld")
-	public void get(){
-		System.out.println("Hello World!");
-	}
 
 
 	/* FIND ALL EVENTS */
